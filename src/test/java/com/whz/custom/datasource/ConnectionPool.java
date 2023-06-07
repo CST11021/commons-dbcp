@@ -1,4 +1,4 @@
-package com.whz.commons.dbcp2;
+package com.whz.custom.datasource;
 
 import org.apache.commons.pool2.ObjectPool;
 import org.apache.commons.pool2.PooledObjectFactory;
@@ -9,6 +9,8 @@ import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import java.sql.Connection;
 
 /**
+ * 通过继承GenericObjectPool类实现连接池
+ *
  * @Author 盖伦
  * @Date 2023/2/25
  */

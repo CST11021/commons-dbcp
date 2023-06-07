@@ -1,4 +1,4 @@
-package com.whz.commons.dbcp2;
+package com.whz.custom.datasource;
 
 import javax.sql.DataSource;
 import java.io.OutputStreamWriter;

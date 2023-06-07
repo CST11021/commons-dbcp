@@ -9,9 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * <p>dbcp数据源连接池分析</p>
- * <p>
- * 类说明
+ * dbcp数据源连接池使用示例
  *
  * @author duanxj
  * @version 1.0

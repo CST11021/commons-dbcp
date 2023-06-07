@@ -1,4 +1,4 @@
-package com.whz.commons.dbcp2;
+package com.whz.custom.datasource;
 
 import org.apache.commons.pool2.PooledObject;
 import org.apache.commons.pool2.PooledObjectFactory;
@@ -6,6 +6,8 @@ import org.apache.commons.pool2.PooledObjectFactory;
 import java.sql.*;
 
 /**
+ * 用于创建池对象的工厂：用于创建Connection对象的工厂
+ *
  * @Author 盖伦
  * @Date 2023/2/25
  */
